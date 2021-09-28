@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "autoname": "ID.#####",
+ "creation": "2021-09-28 11:25:03.680165",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "surname",
+  "memberid",
+  "fullname",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "firstname",
+   "reqd": 1
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "surname"
+  },
+  {
+   "fieldname": "memberid",
+   "fieldtype": "Data",
+   "label": "memberID"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Fullname",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-28 14:44:47.169274",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Moo member",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "firstname,fullname,description",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "firstname",
+ "track_changes": 1
+}

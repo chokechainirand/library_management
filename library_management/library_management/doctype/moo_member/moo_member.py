@@ -4,6 +4,8 @@
 # import frappe
 from frappe.model.document import Document
 
-class Moolocationtest(Document):
+class Moomember(Document):
+
+	def before_save(self):
+     	 self.fullname = f'{self.firstname} {self.surname or ""}'
 	
-	pass

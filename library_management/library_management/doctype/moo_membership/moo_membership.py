@@ -4,6 +4,6 @@
 # import frappe
 from frappe.model.document import Document
 
-class Moolocationtest(Document):
-	
-	pass
+class Moomembership(Document):
+	def before_save(self):
+     	 m = self.fullname 

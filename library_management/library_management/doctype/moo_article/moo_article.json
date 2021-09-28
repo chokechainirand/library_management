@@ -1,34 +1,37 @@
 {
  "actions": [],
+ "autoname": "BOOK.###",
  "creation": "2021-09-21 21:21:16.828659",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "gps",
-  "lat",
-  "lon"
+  "name1",
+  "data",
+  "status"
  ],
  "fields": [
   {
-   "fieldname": "gps",
-   "fieldtype": "Geolocation",
-   "label": "maps"
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "name",
+   "reqd": 1
   },
   {
-   "fieldname": "lat",
+   "fieldname": "data",
    "fieldtype": "Data",
-   "label": "lat"
+   "label": "data"
   },
   {
-   "fieldname": "lon",
+   "fieldname": "status",
    "fieldtype": "Data",
-   "label": "lon"
+   "label": "status"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-21 21:21:16.828659",
+ "modified": "2021-09-28 11:17:50.305604",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Moo article",
